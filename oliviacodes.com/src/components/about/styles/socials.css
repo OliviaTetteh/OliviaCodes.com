@@ -1,0 +1,42 @@
+@import "../../../data/styles.css";
+
+/* Styles for the social media and email sections */
+.social,
+.email-wrapper {
+	display: flex;
+	padding-bottom: 20px;
+}
+
+.social a,
+.email-wrapper a {
+	text-decoration: none;
+}
+
+/* Style for social media icons */
+.social-icon {
+	font-size: 20px;
+	color: #0077b5;
+}
+
+.social-text {
+	color: #333333;
+	padding-left: 15px;
+	margin-top: 0px;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/* Divider line before the email section */
+.email::before {
+	content: "";
+	display: block;
+	padding-top: 20px;
+	border-top: 2px solid #dddddd;
+	margin-top: 20px;
+}
+
+/* Padding for the email wrapper */
+.email-wrapper {
+	padding-top: 20px;
+}
+
