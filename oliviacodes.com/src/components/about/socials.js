@@ -17,7 +17,7 @@ const Socials = () => {
                     <div className="social-icon">
                         <FontAwesomeIcon icon={faTwitter} className="social-icon" />
                     </div>
-                    <div className="social-text">Follow on X (Twitter)</div>
+                    <div className="social-text">Connect on X (Twitter)</div>
                 </a>
             </div>
 
@@ -26,7 +26,7 @@ const Socials = () => {
                     <div className="social-icon">
                         <FontAwesomeIcon icon={faGithub} className="social-icon" />
                     </div>
-                    <div className="social-text">Follow on GitHub</div>
+                    <div className="social-text">Check out my GitHub</div>
                 </a>
             </div>
 
@@ -35,7 +35,7 @@ const Socials = () => {
                     <div className="social-icon">
                         <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
                     </div>
-                    <div className="social-text">Follow on LinkedIn</div>
+                    <div className="social-text">Connect on LinkedIn</div>
                 </a>
             </div>
 
