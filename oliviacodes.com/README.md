@@ -8,7 +8,6 @@ In a competitive and rapidly changing industry, having a clear and comprehensive
  -Home
  -About
  -Projects
- -Articles
  -Contact
 .📱 Fully Responsive
 
