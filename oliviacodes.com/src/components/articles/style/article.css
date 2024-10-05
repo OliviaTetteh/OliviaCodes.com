@@ -1,0 +1,130 @@
+@import "../../../data/styles.css";
+
+/* Theme Variables */
+:root {
+	--primary-color: #1E3A8A; /* Navy Blue */
+	--secondary-color: #6B7280; /* Light Gray */
+	--tertiary-color: #60A5FA; /* Soft Blue */
+	--link-color: #2563EB; /* Bright Blue */
+}
+
+.article {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+	border: 1px solid #e0e0e0;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s ease-in-out;
+}
+
+.article:hover {
+	transform: translateY(-5px);
+}
+
+.article a {
+	text-decoration: none;
+	display: flex;
+	width: 100%;
+}
+
+.article-left-side {
+	min-width: 20%;
+	max-width: 20%;
+	background-color: #f5f5f5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid #e0e0e0;
+}
+
+.article-right-side {
+	flex-basis: 80%;
+	padding: 30px;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+.article-right-side:hover {
+	background-color: #f9f9f9;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.article-date {
+	font-size: 14px;
+	color: var(--tertiary-color); /* Soft Blue */
+	font-weight: 500;
+}
+
+.article-title {
+	color: #2b2b2b;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.article-author {
+	color: var(--secondary-color); /* Light Gray */
+	font-size: 14px;
+	font-style: italic;
+	padding-top: 5px;
+}
+
+.article-description {
+	padding-top: 10px;
+	font-size: 14px;
+	color: var(--secondary-color); /* Light Gray */
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+.article-link {
+	padding-top: 15px;
+	font-size: 14px;
+	color: var(--link-color); /* Bright Blue */
+	font-weight: 600;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+}
+
+.article-link:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+	.article {
+		flex-direction: column;
+	}
+
+	.article-left-side {
+		min-width: 100%;
+		max-width: 100%;
+		border-right: none;
+		border-bottom: 1px solid #e0e0e0;
+	}
+
+	.article-right-side {
+		flex-basis: 100%;
+		padding: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.article-right-side {
+		padding: 15px;
+	}
+
+	.article-title {
+		font-size: 16px;
+	}
+
+	.article-description {
+		font-size: 13px;
+	}
+
+	.article-link {
+		font-size: 12px;
+	}
+}
+
