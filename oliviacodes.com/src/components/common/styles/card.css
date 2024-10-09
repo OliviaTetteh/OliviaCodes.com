@@ -1,0 +1,41 @@
+@import "../../../data/styles.css";
+
+.card {
+    mix-blend-mode: normal;
+    border-radius: 20px;
+    outline: 2px solid #f4f4f5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-container {
+    padding: 40px;
+    padding-bottom: 10px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.card-icon {
+    font-size: 20px;
+    color: #007BFF;
+}
+
+.card-title {
+    color: #333;
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.card-body {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
