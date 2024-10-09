@@ -1,0 +1,64 @@
+@import "../../../data/styles.css";
+
+.footer {
+	display: flex;
+	padding-top: 25px;
+	margin-top: 50px;
+	padding-bottom: 25px;
+	align-items: center;
+}
+
+.footer-links,
+.footer-credits {
+	flex-basis: 50%;
+}
+
+.footer-links {
+	margin-left: -40px;
+}
+
+.footer-nav-link-list {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-nav-link-item {
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.footer-nav-link-list a {
+	text-decoration: none;
+	color: #4A90E2;
+}
+
+.footer-nav-link-list a:hover {
+	color: #E94E77;
+}
+
+.footer-credits-text {
+	justify-content: flex-end;
+	color: #7F8C8D;
+	font-size: 14px;
+	text-align: right;
+}
+
+@media (max-width: 600px) {
+	.footer {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.footer-links {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+	}
+
+	.footer-nav-link-list {
+		width: 100%;
+	}
+}
+
