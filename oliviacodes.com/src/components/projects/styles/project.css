@@ -1,0 +1,89 @@
+@import "../../../data/styles.css";
+
+.project {
+    mix-blend-mode: normal;
+    border-radius: 20px;
+    opacity: 0.9;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+.project:hover {
+    background: #f0f0f0;
+    opacity: 1;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(-5px);
+}
+
+.project:hover .project-link {
+    color: var(--link-color);
+}
+
+.project-container {
+    padding: 30px;
+}
+
+.project-logo {
+    width: 50px;
+}
+
+.project-logo img {
+    width: 100%;
+}
+
+.project-title {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 20px;
+    padding-top: 15px;
+    margin-bottom: 1em;
+    font-weight: 800;
+}
+
+.project-description {
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.project-link {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    font-size: 14px;
+    padding-top: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.project-link:hover {
+    color: var(--link-color);
+}
+
+.project-link-icon {
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.project-link-text {
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .project {
+        height: 300px;
+    }
+
+    .project-title {
+        font-size: 18px;
+    }
+
+    .project-description {
+        font-size: 14px;
+    }
+}
+
