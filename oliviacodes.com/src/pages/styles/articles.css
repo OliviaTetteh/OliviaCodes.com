@@ -1,0 +1,105 @@
+.articles-logo-container {
+	display: flex;
+	justify-content: left;
+	padding-top: 25px;
+}
+
+.articles-logo {
+	display: flex;
+	position: fixed;
+	border: 1px solid var(--primary-color); /* Align with your theme's primary color */
+	border-radius: 50%;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	top: 4vh;
+}
+
+.articles-main-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding-top: 120px;
+	background-color: var(--background-color); /* Add a background color from your theme */
+	color: var(--text-color); /* Ensure text color matches your theme */
+}
+
+.articles-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.articles-wrapper {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--secondary-background); /* Secondary background for contrast */
+	border-radius: 12px; /* Add rounded corners */
+	padding: 20px;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for a modern look */
+}
+
+.articles-title {
+	font-family: var(--primary-font); /* Use the main font for headings */
+	font-size: 2.5rem;
+	color: var(--primary-color);
+	padding-left: 35px;
+	font-weight: 700;
+}
+
+.articles-subtitle {
+	font-family: var(--secondary-font); /* Use secondary font for subtitles */
+	font-size: 1.5rem;
+	color: var(--secondary-color);
+	padding-left: 35px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.articles-article {
+	padding-top: 0px;
+	padding-left: 35px;
+	padding-bottom: 20px;
+	border-left: 2px solid var(--accent-color); /* Use an accent color to align with theme */
+	width: 100%;
+	transition: border-color 0.3s ease-in-out;
+}
+
+.articles-article:hover {
+	border-left: 2px solid var(--primary-color); /* Change color on hover */
+}
+
+@media (max-width: 1024px) {
+	.articles-title {
+		width: 100% !important;
+		font-size: 2rem;
+	}
+
+	.articles-subtitle {
+		width: 100% !important;
+		font-size: 1.2rem;
+	}
+
+	.articles-wrapper {
+		padding: 15px;
+	}
+}
+
+@media (max-width: 600px) {
+	.articles-main-container {
+		padding-top: 60px;
+	}
+
+	.articles-wrapper {
+		padding: 10px;
+	}
+
+	.articles-title {
+		font-size: 1.8rem;
+	}
+
+	.articles-subtitle {
+		font-size: 1rem;
+	}
+}
+
