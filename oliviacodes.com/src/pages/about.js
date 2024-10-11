@@ -13,7 +13,7 @@ import "./styles/about.css";
 
 const About = () => {
     useEffect(() => {
-        window.scrollTo(0, 0); // Scroll to the top of the page on load
+        window.scrollTo(0, 0);
     }, []);
 
     const currentSEO = SEO.find((item) => item.page === "about");
@@ -21,11 +21,11 @@ const About = () => {
     return (
         <React.Fragment>
             <Helmet>
-                <title>{`About | ${INFO.main.title}`}<OliviaCodes>
+                <title>{`About | ${INFO.main.title}`}</title>
                 <meta name="description" content={currentSEO.description} />
                 <meta
                     name="keywords"
-                    content={currentSEO.keywords.join("Olivia Tetteh", "Olivia Ahinee Tetteh")}
+                    content={currentSEO.keywords.join(", ")}
                 />
             </Helmet>
 
@@ -42,11 +42,11 @@ const About = () => {
                         <div className="about-main">
                             <div className="about-right-side">
                                 <div className="title about-title">
-                                    {"Hello World! I'm Olivia Ahinee Tetteh, a creative from Ghana, envisioning and crafting the designs of the future"} 
+                                    {"Hello World! I'm Olivia Ahinee Tetteh, a creative from Ghana, envisioning and crafting the designs of the future"}
                                 </div>
 
                                 <div className="subtitle about-subtitle">
-                                 {"I've had the opportunity to work on a diverse range of projects over the years, and I’m proud of the progress I've achieved. If you're curious about any of my work, feel free to explore the code and share any suggestions for improvements or enhancements. Collaboration is a valuable way to learn and grow, and I’m always open to fresh ideas and constructive feedback."}
+                                    {"I've had the opportunity to work on a diverse range of projects over the years, and I’m proud of the progress I've achieved. If you're curious about any of my work, feel free to explore the code and share any suggestions for improvements or enhancements. Collaboration is a valuable way to learn and grow, and I’m always open to fresh ideas and constructive feedback."}
                                 </div>
                             </div>
 
