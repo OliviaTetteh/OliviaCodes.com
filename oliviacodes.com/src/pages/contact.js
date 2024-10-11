@@ -13,7 +13,7 @@ import "./styles/contact.css";
 
 const Contact = () => {
 	useEffect(() => {
-		window.scrollTo(0, 0);
+		window.scrollTo(0, 0); // Scroll to the top on component mount
 	}, []);
 
 	const currentSEO = SEO.find((item) => item.page === "contact");
@@ -45,28 +45,28 @@ const Contact = () => {
 
 						<div className="subtitle contact-subtitle">
 							Thank you for your interest in reaching out. I
-		                                        appreciate your feedback, questions, and suggestions. 
-		                                        If you have any specific inquiries or comments, 
-		                                        feel free to email me directly at &nbsp;{" "}
+							appreciate your feedback, questions, and suggestions. 
+							If you have any specific inquiries or comments, 
+							feel free to email me directly at&nbsp;
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
-							</a>
+							</a>.
 							I aim to reply to all messages within 24 hours,
-		                                        though it might take a little longer during busy
-		                                        periods. You're also welcome to use the contact
-		                                        form on my website—just fill in the details, and
-		                                        I'll respond as soon as possible. If you'd prefer
-		                                        to connect via social media, you can find me on{" "}
+							though it might take a little longer during busy
+							periods. You're also welcome to use the contact
+							form on my website—just fill in the details, and
+							I'll respond as soon as possible. If you'd prefer
+							to connect via social media, you can find me on&nbsp;
 							<a
-								href={INFO.socials.instagram}
+								href={INFO.socials.twitter} // Updated to Twitter
 								target="_blank"
 								rel="noreferrer"
 							>
-								{INFO.socials.instagram}
-							</a>
-							I Share regular updates and interact with my followere
-		                                        there, so feel free to connect with me. Thanks again 
-		                                        for your interest-I look forward to hearing from you!
+								Twitter
+							</a>.
+							I share regular updates and interact with my followers
+							there, so feel free to connect with me. Thanks again 
+							for your interest—I look forward to hearing from you!
 						</div>
 					</div>
 
@@ -86,3 +86,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
