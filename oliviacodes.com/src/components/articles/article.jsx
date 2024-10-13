@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 import "./style/article.css";
-import SingleArticle from "./Article"
+import SingleArticle from "./article"
 
 const Article = () => {
 	return (
