@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "./Project";
-import OliveBlogLogo from "../Olive Blog.png";
-import AdzibanLogo from "../Adziban.png";
+import OliveBlogLogo from "../public/Olive Blog.png";
+import AdzibanLogo from "../public/Adziban.png";
 
 const ProjectsList = () => {
 	return (
