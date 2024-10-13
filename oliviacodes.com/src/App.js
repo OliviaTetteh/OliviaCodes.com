@@ -13,7 +13,8 @@ import "./app.css";
 
 function App() {
     useEffect(() => {
-        
+	    console.log("App loaded, checking for errors...");
+	    window.scrollTo(0, 0);
     }, []);
 
     return (
