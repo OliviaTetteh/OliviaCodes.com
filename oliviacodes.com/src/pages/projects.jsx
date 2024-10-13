@@ -7,7 +7,6 @@ import Logo from "../components/common/logo";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import { myProjects } from "../data/projects"; // Assuming you have a data file for your projects
 
 import "./styles/projects.css";
 
