@@ -1,7 +1,8 @@
 import React from "react";
 import Project from "./project";
-import OliveBlogLogo from "../public/Olive Blog.png";
-import AdzibanLogo from "../public/Adziban.png";
+
+<img src={`${process.env.PUBLIC_URL}/Olive Blog.png`} alt="Olive Blog" />
+<img src={`${process.env.PUBLIC_URL}/Adziban.png`} alt="Adziban" />
 
 const ProjectsList = () => {
 	return (
