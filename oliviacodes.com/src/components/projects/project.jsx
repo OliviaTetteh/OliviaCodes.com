@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "./Project";
+import Project from "./project";
 import OliveBlogLogo from "../public/Olive Blog.png";
 import AdzibanLogo from "../public/Adziban.png";
 
