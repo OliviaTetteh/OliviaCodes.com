@@ -1,8 +1,10 @@
 import React from "react";
 import Project from "./project";
 
-<img src={`${process.env.PUBLIC_URL}/Olive Blog.png`} alt="Olive Blog" />
-<img src={`${process.env.PUBLIC_URL}/Adziban.png`} alt="Adziban" />
+<>
+	<img src={`${process.env.PUBLIC_URL}/Olive Blog.png`} alt="Olive Blog" />
+	<img src={`${process.env.PUBLIC_URL}/Adziban.png`} alt="Adziban" />
+</>
 
 const ProjectsList = () => {
 	return (
