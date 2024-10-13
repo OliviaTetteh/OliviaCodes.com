@@ -26,8 +26,7 @@ const Articles = () => {
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
+					content={currentSEO.keywords.join(", ")} />
 			</Helmet>
 
 			<div className="page-content">
