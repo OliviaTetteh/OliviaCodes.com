@@ -15,5 +15,5 @@ const ArticleList = () => {
 	);
 };
 
-export default SingleArticle;
+export default Article;
 
