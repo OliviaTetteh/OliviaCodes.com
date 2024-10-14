@@ -15,5 +15,5 @@ const ArticleList = () => {
 	);
 };
 
-export default Article;
+export default ArticleList;
 
