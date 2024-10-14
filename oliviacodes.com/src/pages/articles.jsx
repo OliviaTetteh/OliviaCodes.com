@@ -4,14 +4,14 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import Articles from "../components/articles/article";
+import Article from "../components/articles/article";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/articles.css";
 
-const Articles = (myArticles) => {
+const ArticlesPage = (myArticles) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -74,4 +74,4 @@ const Articles = (myArticles) => {
 	);
 };
 
-export default Articles;
+export default ArticlesPage;
