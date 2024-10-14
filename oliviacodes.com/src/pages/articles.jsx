@@ -11,7 +11,7 @@ import SEO from "../data/seo";
 
 import "./styles/articles.css";
 
-const ArticlesPage = (myArticles) => {
+const ArticlesPage = ({ myArticles }) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -25,7 +25,8 @@ const ArticlesPage = (myArticles) => {
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
-					content={currentSEO.keywords.join(", ")} />
+					content={currentSEO.keywords.join(", ")}
+				/>
 			</Helmet>
 
 			<div className="page-content">
@@ -53,12 +54,12 @@ const ArticlesPage = (myArticles) => {
 										className="articles-article"
 										key={(index + 1).toString()}
 									>
-										<Articles
+										<Article
 											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
+											date={article.date}
+											title={article.title}
+											description={article.description}
+											link={`/article/${index + 1}`}
 										/>
 									</div>
 								))}
@@ -75,3 +76,4 @@ const ArticlesPage = (myArticles) => {
 };
 
 export default ArticlesPage;
+
