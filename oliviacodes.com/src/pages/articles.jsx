@@ -11,7 +11,7 @@ import SEO from "../data/seo";
 
 import "./styles/articles.css";
 
-const MyArticles = () => {
+const Articles = (myArticles) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -53,7 +53,7 @@ const MyArticles = () => {
 										className="articles-article"
 										key={(index + 1).toString()}
 									>
-										<Article
+										<Articles
 											key={(index + 1).toString()}
 											date={article().date}
 											title={article().title}
