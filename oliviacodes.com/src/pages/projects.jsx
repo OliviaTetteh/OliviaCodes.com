@@ -10,6 +10,20 @@ import SEO from "../data/seo";
 
 import "./styles/projects.css";
 
+// Define the projects array or import it from another file
+const myProjects = [
+  {
+    title: "Olive Blog App",
+    description: "A simple blogging platform where users can create accounts, write blog posts, and comment on others' posts.",
+    link: "https://github.com/OliviaTetteh/Olive-Blog-App"
+  },
+  {
+    title: "Adziban",
+    description: "A website where users can discover and share African recipes, with the ability to search, save, and rate them.",
+    link: "https://github.com/OliviaTetteh/Adziban"
+  }
+];
+
 const Projects = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -38,19 +52,11 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							My contributions as I strive to make a
-		                                        meaningful impact.
+							My contributions as I strive to make a meaningful impact.
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I’ve had the opportunity to work on a diverse
-		                                        range of projects over the years, and I’m
-		                                        proud of the progress I've achieved. If you're
-		                                        curious about any of my work, feel free to
-		                                        explore the code and share any suggestions for
-		                                        improvements or enhancements. Collaboration is
-		                                        a valuable way to learn and grow, and I’m always
-		                                        open to fresh ideas and constructive feedback.
+							I’ve had the opportunity to work on a diverse range of projects over the years, and I’m proud of the progress I've achieved. If you're curious about any of my work, feel free to explore the code and share any suggestions for improvements or enhancements. Collaboration is a valuable way to learn and grow, and I’m always open to fresh ideas and constructive feedback.
 						</div>
 
 						<div className="projects-list">
