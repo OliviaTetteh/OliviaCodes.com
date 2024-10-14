@@ -7,7 +7,6 @@ import "./styles/logo.css";
 
 const Logo = (props) => {
     const { width } = props;
-    const link = true;
 
     const imageElement = (
         <img src={INFO.main.logo} alt="logo" className="logo" width={width} />
