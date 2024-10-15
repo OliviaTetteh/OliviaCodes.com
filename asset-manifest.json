@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/oliviacodes/static/css/main.14e64221.css",
+    "main.js": "/oliviacodes/static/js/main.df19f905.js",
+    "static/js/453.981e6dc7.chunk.js": "/oliviacodes/static/js/453.981e6dc7.chunk.js",
+    "index.html": "/oliviacodes/index.html",
+    "main.14e64221.css.map": "/oliviacodes/static/css/main.14e64221.css.map",
+    "main.df19f905.js.map": "/oliviacodes/static/js/main.df19f905.js.map",
+    "453.981e6dc7.chunk.js.map": "/oliviacodes/static/js/453.981e6dc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14e64221.css",
+    "static/js/main.df19f905.js"
+  ]
+}
