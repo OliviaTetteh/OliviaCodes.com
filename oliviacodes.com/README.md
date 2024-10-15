@@ -23,3 +23,6 @@ Jest React Testing Library
 ### Author
 ---
 Olivia Ahinee Tetteh Github: http://github.com/OliviaTetteh Linkedin: https://www.linkedin.com/in/olivia-ahinee-tetteh-0257468a/
+
+Yoc can view the website here:
+https://oliviatetteh.github.io/OliviaCodes.com/
