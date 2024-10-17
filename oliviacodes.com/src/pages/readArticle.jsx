@@ -13,17 +13,15 @@ import myArticles from "../data/articles";
 import "./styles/readArticle.css";
 
 const ArticleStyle = styled.div`
-	/* Add any specific styles for the article body here */
-	color: var(--text-color); /* Use the text color defined in your CSS */
-	line-height: 1.6; /* Improved line spacing for readability */
-	font-size: 1rem; /* Font size for article body */
+	color: var(--text-color);
+	line-height: 1.6;
+	font-size: 1rem;
 `;
 
 const ReadArticle = () => {
 	const navigate = useNavigate();
 
-	// Assuming there is only one article, we can access it directly
-	const article = myArticles[0]; // Adjusted to access the first article directly
+	const article = myArticles[0];
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
