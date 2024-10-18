@@ -10,7 +10,6 @@ import SEO from "../data/seo";
 
 import "./styles/projects.css";
 
-// Define the projects array or import it from another file
 const myProjects = [
   {
     title: "Olive Blog App",
