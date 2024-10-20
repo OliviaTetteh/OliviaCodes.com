@@ -22,7 +22,9 @@ const NavBar = (props) => {
                                 <Link to="/projects">My Projects</Link>
                             </li>
                             <li className={active === "github" ? "nav-item active" : "nav-item"}>
-                                <a href="https://github.com/OliviaTetteh" target="_blank" rel="noreferrer">GitHub</a>
+                                <a href="https://github.com/OliviaTetteh" target="_blank" rel="noreferrer">
+                                    GitHub
+                                </a>
                             </li>
                             <li className={active === "contact" ? "nav-item active" : "nav-item"}>
                                 <Link to="/contact">Contact Me</Link>
@@ -36,4 +38,5 @@ const NavBar = (props) => {
 };
 
 export default NavBar;
+
 
